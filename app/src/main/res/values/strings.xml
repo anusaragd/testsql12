@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">testsql12</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">My App V 1.0</string>
+
+    <string-array name="CmdMenu">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>
