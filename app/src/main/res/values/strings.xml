@@ -5,7 +5,7 @@
     <string name="title_activity_main">My App V 1.0</string>
 
     <string-array name="CmdMenu">
-        <item>Edit</item>
+        <!--<item>Edit</item>-->
         <item>Delete</item>
     </string-array>
 </resources>

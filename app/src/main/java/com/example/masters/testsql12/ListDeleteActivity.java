@@ -60,7 +60,8 @@ public class ListDeleteActivity extends AppCompatActivity {
                                     ContextMenu.ContextMenuInfo menuInfo) {
         //if (v.getId()==R.id.list) {
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)menuInfo;
-        menu.setHeaderTitle("Command for : " + MebmerList.get(info.position).get("Name").toString());
+//        menu.setHeaderTitle("Command for : " + MebmerList.get(info.position).get("Name").toString());
+        menu.setHeaderTitle("Delete this : " + MebmerList.get(info.position).get("Name").toString());
         String[] menuItems = getResources().getStringArray(R.array.CmdMenu);
         for (int i = 0; i<menuItems.length; i++) {
             menu.add(Menu.NONE, i, i, menuItems[i]);
@@ -81,9 +82,9 @@ public class ListDeleteActivity extends AppCompatActivity {
         if ("Edit".equals(CmdName)) {
 
             // Show on new activity
-            Intent newActivity = new Intent(ListDeleteActivity.this,UpdateActivity.class);
+//            Intent newActivity = new Intent(ListDeleteActivity.this,UpdateActivity.class);
 //            newActivity.putExtra("MemID", MebmerList.get(info.position).get("ID").toString());
-            startActivity(newActivity);
+//            startActivity(newActivity);
 
             // for Delete Command
         } else if ("Delete".equals(CmdName)) {
