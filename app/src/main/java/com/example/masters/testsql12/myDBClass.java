@@ -17,7 +17,8 @@ public class myDBClass extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     // Database Name
-    private static final String DATABASE_NAME = "mydatabase";
+//    private static final String DATABASE_NAME = "mydatabase";
+    private static final String DATABASE_NAME = "testsql";
 
     // Table Name
     private static final String TABLE_MEMBER = "members";

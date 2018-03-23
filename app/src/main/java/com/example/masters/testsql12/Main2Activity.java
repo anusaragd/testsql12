@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class Main2Activity extends AppCompatActivity {
                 // Open Form Add
                 Intent newActivity = new Intent(Main2Activity.this,AddActivity.class);
                 startActivity(newActivity);
+                Toast.makeText(Main2Activity.this,"Add Data Successfully. " + myDBClass.class , Toast.LENGTH_SHORT).show();
 
             }
         });
