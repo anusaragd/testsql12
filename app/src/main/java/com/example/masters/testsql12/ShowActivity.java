@@ -27,7 +27,7 @@ public class ShowActivity extends AppCompatActivity {
 
         SimpleAdapter sAdap;
         sAdap = new SimpleAdapter(ShowActivity.this, MebmerList, R.layout.activity_column,
-                new String[] {"MemberID", "Name", "Tel"}, new int[] {R.id.ColMemberID, R.id.ColName, R.id.ColTel});
+                new String[] {"MemberID", "Name", "Tel" , "Time"}, new int[] {R.id.ColMemberID, R.id.ColName, R.id.ColTel, R.id.ColTime});
         lisView1.setAdapter(sAdap);
 
         lisView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {

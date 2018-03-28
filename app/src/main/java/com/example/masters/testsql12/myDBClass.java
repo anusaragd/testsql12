@@ -35,7 +35,8 @@ public class myDBClass extends SQLiteOpenHelper {
         db.execSQL("CREATE TABLE " + TABLE_MEMBER +
                 "(MemberID INTEGER PRIMARY KEY AUTOINCREMENT," +
                 " Name TEXT(100)," +
-                " Tel TEXT(100));");
+                " Tel TEXT(100),"+
+                " Time TEXT(100));");
 
         Log.d("CREATE TABLE","Create Table Successfully.");
     }
